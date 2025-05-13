@@ -1,0 +1,217 @@
+{
+  "locator_patterns": {},
+  "trained_cases": [
+    {
+      "locator_id": "arama_kutusu",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747049109.516203
+    },
+    {
+      "locator_id": "arama_kutusu",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747049524.307774
+    },
+    {
+      "locator_id": "filtre_butonu",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747049524.4538329
+    },
+    {
+      "locator_id": "wiki_search",
+      "selector": "input[name='search']",
+      "selector_type": "css",
+      "timestamp": 1747049530.458795
+    },
+    {
+      "locator_id": "github_signup",
+      "selector": "Sign up for GitHub",
+      "selector_type": "text",
+      "timestamp": 1747049537.6387908
+    },
+    {
+      "locator_id": "test_button",
+      "selector": "#test-button",
+      "selector_type": "css",
+      "timestamp": 1747049540.890626
+    },
+    {
+      "locator_id": "search_input",
+      "selector": ".search-input",
+      "selector_type": "css",
+      "timestamp": 1747049540.946868
+    },
+    {
+      "locator_id": "submit_button",
+      "selector": "Gönder",
+      "selector_type": "text",
+      "timestamp": 1747049540.96211
+    },
+    {
+      "locator_id": "test_button",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747049546.02354
+    },
+    {
+      "locator_id": "search_input",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747049546.036909
+    },
+    {
+      "locator_id": "submit_button",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747049546.0450501
+    },
+    {
+      "locator_id": "arama_kutusu",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050243.5898921
+    },
+    {
+      "locator_id": "filtre_butonu",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050243.725355
+    },
+    {
+      "locator_id": "restoran_listesi",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050243.8522
+    },
+    {
+      "locator_id": "header_logo",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050243.979411
+    },
+    {
+      "locator_id": "kampanyalar_section",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050244.147039
+    },
+    {
+      "locator_id": "footer_section",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050244.272455
+    },
+    {
+      "locator_id": "mobil_uygulama_buton",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050244.4003031
+    },
+    {
+      "locator_id": "siparis_takip",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050244.527777
+    },
+    {
+      "locator_id": "ilk_restoran_kart",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050244.655613
+    },
+    {
+      "locator_id": "restoranlar_baslik",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050244.787698
+    },
+    {
+      "locator_id": "wiki_search",
+      "selector": "input[name='search']",
+      "selector_type": "css",
+      "timestamp": 1747050250.76037
+    },
+    {
+      "locator_id": "featured_article",
+      "selector": "#mp-tfa",
+      "selector_type": "css",
+      "timestamp": 1747050250.86438
+    },
+    {
+      "locator_id": "main_content",
+      "selector": "#content",
+      "selector_type": "css",
+      "timestamp": 1747050250.93336
+    },
+    {
+      "locator_id": "footer",
+      "selector": "#footer",
+      "selector_type": "css",
+      "timestamp": 1747050251.0311449
+    },
+    {
+      "locator_id": "github_signup",
+      "selector": "Sign up for GitHub",
+      "selector_type": "text",
+      "timestamp": 1747050257.9714
+    },
+    {
+      "locator_id": "github_logo",
+      "selector": ".octicon-mark-github",
+      "selector_type": "css",
+      "timestamp": 1747050258.041763
+    },
+    {
+      "locator_id": "github_footer",
+      "selector": ".footer",
+      "selector_type": "css",
+      "timestamp": 1747050258.1410701
+    },
+    {
+      "locator_id": "github_pricing",
+      "selector": "Pricing",
+      "selector_type": "text",
+      "timestamp": 1747050258.176679
+    },
+    {
+      "locator_id": "test_button",
+      "selector": "#test-button",
+      "selector_type": "css",
+      "timestamp": 1747050261.676088
+    },
+    {
+      "locator_id": "search_input",
+      "selector": ".search-input",
+      "selector_type": "css",
+      "timestamp": 1747050261.690596
+    },
+    {
+      "locator_id": "submit_button",
+      "selector": "Gönder",
+      "selector_type": "text",
+      "timestamp": 1747050261.6946461
+    },
+    {
+      "locator_id": "test_button",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050266.7187898
+    },
+    {
+      "locator_id": "search_input",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050266.7290628
+    },
+    {
+      "locator_id": "submit_button",
+      "selector": "input[type='text']",
+      "selector_type": "css",
+      "timestamp": 1747050266.737131
+    }
+  ],
+  "version": "1.0",
+  "created_at": 1747049103.712497
+}

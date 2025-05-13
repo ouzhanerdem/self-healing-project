@@ -1,0 +1,48 @@
+[
+  {
+    "scenario": "ID Değişim Testi",
+    "locator_id": "test_button",
+    "model_found": true,
+    "actual_element_visible": true,
+    "predictions": [
+      {
+        "type": "css",
+        "selector": "#test_button",
+        "score": 0.8
+      },
+      {
+        "type": "css",
+        "selector": "input[type='text']",
+        "score": 0.75
+      },
+      {
+        "type": "css",
+        "selector": "input[type='text']",
+        "score": 0.75
+      }
+    ]
+  },
+  {
+    "scenario": "Class Değişim Testi",
+    "locator_id": "search_input",
+    "model_found": true,
+    "actual_element_visible": true,
+    "predictions": [
+      {
+        "type": "css",
+        "selector": "#search_input",
+        "score": 0.8
+      },
+      {
+        "type": "css",
+        "selector": "input[type='text']",
+        "score": 0.75
+      },
+      {
+        "type": "css",
+        "selector": "input[type='text']",
+        "score": 0.75
+      }
+    ]
+  }
+]

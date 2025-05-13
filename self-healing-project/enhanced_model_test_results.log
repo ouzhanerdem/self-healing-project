@@ -1,0 +1,642 @@
+2025-05-12 14:31:57,152 - __main__ - INFO - Geliştirilmiş model testi başlatılıyor...
+2025-05-12 14:31:57,152 - resources.locator_predict_model - INFO - Model verisi yüklendi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:31:57,152 - resources.locator_predict_model - INFO - Locator tahmin modeli başlatıldı
+2025-05-12 14:31:58,615 - __main__ - INFO - Site 1/3: TGO Yemek test ediliyor...
+2025-05-12 14:31:58,615 - __main__ - INFO - Sayfa yükleniyor: https://tgoyemek.com/restoranlar
+2025-05-12 14:32:03,191 - __main__ - INFO - TGO Yemek için HTML içeriği alındı (1372076 bytes)
+2025-05-12 14:32:04,114 - __main__ - INFO - Senaryo 1/2: 'arama_kutusu' test ediliyor...
+2025-05-12 14:32:04,114 - resources.locator_predict_model - INFO - 'arama_kutusu' için locator tahmin yapılıyor
+2025-05-12 14:32:04,247 - __main__ - INFO - 'arama_kutusu' için 8 tahmin yapıldı
+2025-05-12 14:32:04,247 - __main__ - INFO -   1. Type: css, Selector: #arama_kutusu, Score: 0.80
+2025-05-12 14:32:04,247 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:04,247 - __main__ - INFO -   3. Type: text, Selector: arama, Score: 0.70
+2025-05-12 14:32:04,247 - __main__ - INFO - Tahmin 1 test ediliyor: css - #arama_kutusu
+2025-05-12 14:32:04,270 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:32:04,275 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:32:04,307 - __main__ - INFO - Element dolduruldu: 'burger'
+2025-05-12 14:32:04,307 - resources.locator_predict_model - INFO - 'arama_kutusu' için model eğitiliyor
+2025-05-12 14:32:04,315 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:04,315 - __main__ - INFO - Model eğitildi: arama_kutusu - input[type='text']
+2025-05-12 14:32:04,315 - __main__ - INFO - Senaryo 'arama_kutusu' başarılı
+2025-05-12 14:32:04,315 - __main__ - INFO - Senaryo 2/2: 'filtre_butonu' test ediliyor...
+2025-05-12 14:32:04,315 - resources.locator_predict_model - INFO - 'filtre_butonu' için locator tahmin yapılıyor
+2025-05-12 14:32:04,444 - __main__ - INFO - 'filtre_butonu' için 10 tahmin yapıldı
+2025-05-12 14:32:04,444 - __main__ - INFO -   1. Type: css, Selector: #filtre_butonu, Score: 0.80
+2025-05-12 14:32:04,444 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:04,444 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:04,444 - __main__ - INFO - Tahmin 1 test ediliyor: css - #filtre_butonu
+2025-05-12 14:32:04,449 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:32:04,453 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:32:04,453 - __main__ - INFO - Element tıklanabilir: Test başarılı
+2025-05-12 14:32:04,453 - resources.locator_predict_model - INFO - 'filtre_butonu' için model eğitiliyor
+2025-05-12 14:32:04,454 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:04,454 - __main__ - INFO - Model eğitildi: filtre_butonu - input[type='text']
+2025-05-12 14:32:04,454 - __main__ - INFO - Senaryo 'filtre_butonu' başarılı
+2025-05-12 14:32:05,458 - __main__ - INFO - Site 2/3: Wikipedia test ediliyor...
+2025-05-12 14:32:05,459 - __main__ - INFO - Sayfa yükleniyor: https://tr.wikipedia.org/
+2025-05-12 14:32:09,458 - __main__ - INFO - Wikipedia için HTML içeriği alındı (423774 bytes)
+2025-05-12 14:32:10,380 - __main__ - INFO - Senaryo 1/2: 'wiki_search' test ediliyor...
+2025-05-12 14:32:10,380 - resources.locator_predict_model - INFO - 'wiki_search' için locator tahmin yapılıyor
+2025-05-12 14:32:10,427 - __main__ - INFO - 'wiki_search' için 10 tahmin yapıldı
+2025-05-12 14:32:10,427 - __main__ - INFO -   1. Type: css, Selector: #wiki_search, Score: 0.80
+2025-05-12 14:32:10,427 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:10,427 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:10,427 - __main__ - INFO - Tahmin 1 test ediliyor: css - #wiki_search
+2025-05-12 14:32:10,440 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:32:10,443 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:32:10,446 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: input[name='search']
+2025-05-12 14:32:10,448 - __main__ - INFO - Fallback ile element bulundu!
+2025-05-12 14:32:10,458 - __main__ - INFO - Fallback ile element dolduruldu: 'yazılım test otomasyonu'
+2025-05-12 14:32:10,458 - resources.locator_predict_model - INFO - 'wiki_search' için model eğitiliyor
+2025-05-12 14:32:10,459 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:10,459 - __main__ - INFO - Model fallback ile eğitildi: wiki_search - input[name='search']
+2025-05-12 14:32:10,459 - __main__ - INFO - Senaryo 'wiki_search' başarılı
+2025-05-12 14:32:10,459 - __main__ - INFO - Senaryo 2/2: 'wiki_languages' test ediliyor...
+2025-05-12 14:32:10,459 - resources.locator_predict_model - INFO - 'wiki_languages' için locator tahmin yapılıyor
+2025-05-12 14:32:10,486 - __main__ - INFO - 'wiki_languages' için 9 tahmin yapıldı
+2025-05-12 14:32:10,486 - __main__ - INFO -   1. Type: css, Selector: #wiki_languages, Score: 0.80
+2025-05-12 14:32:10,486 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:10,486 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:10,486 - __main__ - INFO - Tahmin 1 test ediliyor: css - #wiki_languages
+2025-05-12 14:32:10,489 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:32:10,490 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:32:10,492 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: #p-lang
+2025-05-12 14:32:10,495 - __main__ - WARNING - Senaryo 'wiki_languages' başarısız
+2025-05-12 14:32:11,500 - __main__ - INFO - Site 3/3: GitHub test ediliyor...
+2025-05-12 14:32:11,500 - __main__ - INFO - Sayfa yükleniyor: https://github.com/
+2025-05-12 14:32:16,635 - __main__ - INFO - GitHub için HTML içeriği alındı (307622 bytes)
+2025-05-12 14:32:17,550 - __main__ - INFO - Senaryo 1/2: 'github_search' test ediliyor...
+2025-05-12 14:32:17,550 - resources.locator_predict_model - INFO - 'github_search' için locator tahmin yapılıyor
+2025-05-12 14:32:17,575 - __main__ - INFO - 'github_search' için 10 tahmin yapıldı
+2025-05-12 14:32:17,575 - __main__ - INFO -   1. Type: css, Selector: #github_search, Score: 0.80
+2025-05-12 14:32:17,575 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:17,575 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:17,575 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_search
+2025-05-12 14:32:17,589 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:32:17,591 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:32:17,594 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: .header-search-input
+2025-05-12 14:32:17,596 - __main__ - WARNING - Senaryo 'github_search' başarısız
+2025-05-12 14:32:17,596 - __main__ - INFO - Senaryo 2/2: 'github_signup' test ediliyor...
+2025-05-12 14:32:17,596 - resources.locator_predict_model - INFO - 'github_signup' için locator tahmin yapılıyor
+2025-05-12 14:32:17,624 - __main__ - INFO - 'github_signup' için 10 tahmin yapıldı
+2025-05-12 14:32:17,624 - __main__ - INFO -   1. Type: css, Selector: #github_signup, Score: 0.80
+2025-05-12 14:32:17,624 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:17,624 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:17,624 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_signup
+2025-05-12 14:32:17,628 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:32:17,630 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:32:17,631 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: text=Sign up for GitHub
+2025-05-12 14:32:17,638 - __main__ - INFO - Fallback ile element bulundu!
+2025-05-12 14:32:17,638 - resources.locator_predict_model - INFO - 'github_signup' için model eğitiliyor
+2025-05-12 14:32:17,639 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:17,639 - __main__ - INFO - Model fallback ile eğitildi: github_signup - Sign up for GitHub
+2025-05-12 14:32:17,639 - __main__ - INFO - Senaryo 'github_signup' başarılı
+2025-05-12 14:32:18,896 - __main__ - INFO - Test sonuçları:
+2025-05-12 14:32:18,896 - __main__ - INFO -   Toplam test: 6
+2025-05-12 14:32:18,896 - __main__ - INFO -   Başarılı: 4
+2025-05-12 14:32:18,896 - __main__ - INFO -   Başarısız: 2
+2025-05-12 14:32:18,896 - __main__ - INFO -   Başarı oranı: 66.7%
+2025-05-12 14:32:18,896 - __main__ - INFO -   TGO Yemek: 2/2 başarılı (100.0%)
+2025-05-12 14:32:18,896 - __main__ - INFO -   Wikipedia: 1/2 başarılı (50.0%)
+2025-05-12 14:32:18,896 - __main__ - INFO -   GitHub: 1/2 başarılı (50.0%)
+2025-05-12 14:32:18,896 - __main__ - INFO - Geliştirilmiş model testi tamamlandı. Sonuçlar model_test_results.json dosyasına kaydedildi.
+2025-05-12 14:32:18,896 - __main__ - INFO - Model kendini iyileştirme stratejileri testi başlatılıyor...
+2025-05-12 14:32:18,896 - resources.locator_predict_model - INFO - Model verisi yüklendi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:18,897 - resources.locator_predict_model - INFO - Locator tahmin modeli başlatıldı
+2025-05-12 14:32:20,215 - __main__ - INFO - Test sayfası oluşturuldu: file:///Users/oguzhan.erdem/Desktop/self-healing-project/temp_test.html
+2025-05-12 14:32:20,875 - __main__ - INFO - Senaryo başlatılıyor: ID Değişim Testi
+2025-05-12 14:32:20,888 - resources.locator_predict_model - INFO - 'test_button' için model eğitiliyor
+2025-05-12 14:32:20,894 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:20,895 - __main__ - INFO - Model orijinal seçici ile eğitildi: test_button - #test-button
+2025-05-12 14:32:20,937 - __main__ - INFO - Orijinal element görünür: #test-button - True
+2025-05-12 14:32:20,939 - __main__ - INFO - Senaryo başlatılıyor: Class Değişim Testi
+2025-05-12 14:32:20,946 - resources.locator_predict_model - INFO - 'search_input' için model eğitiliyor
+2025-05-12 14:32:20,948 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:20,948 - __main__ - INFO - Model orijinal seçici ile eğitildi: search_input - .search-input
+2025-05-12 14:32:20,955 - __main__ - INFO - Orijinal element görünür: .search-input - True
+2025-05-12 14:32:20,955 - __main__ - INFO - Senaryo başlatılıyor: Metin Değişim Testi
+2025-05-12 14:32:20,961 - resources.locator_predict_model - INFO - 'submit_button' için model eğitiliyor
+2025-05-12 14:32:20,965 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:20,966 - __main__ - INFO - Model orijinal seçici ile eğitildi: submit_button - Gönder
+2025-05-12 14:32:21,012 - __main__ - ERROR - Orijinal elemana erişim hatası: Locator.is_visible: Error: strict mode violation: locator("text=Gönder") resolved to 2 elements:
+    1) <p>Başlangıçta 'Gönder' yazan buton, 3 saniye sonra …</p> aka get_by_text("Başlangıçta 'Gönder' yazan")
+    2) <button id="text-button">Gönder</button> aka get_by_role("button", name="Gönder")
+
+Call log:
+    - checking visibility of locator("text=Gönder")
+
+2025-05-12 14:32:21,012 - __main__ - INFO - Elementlerin değişmesi için 5 saniye bekleniyor...
+2025-05-12 14:32:26,016 - __main__ - INFO - Değişim sonrası test: ID Değişim Testi
+2025-05-12 14:32:26,018 - resources.locator_predict_model - INFO - 'test_button' için locator tahmin yapılıyor
+2025-05-12 14:32:26,018 - __main__ - INFO - 'test_button' için tahminler:
+2025-05-12 14:32:26,018 - __main__ - INFO -   1. Type: css, Selector: #test_button, Score: 0.80
+2025-05-12 14:32:26,018 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:26,018 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:26,023 - __main__ - INFO - Element değişim sonrası bulundu: input[type='text']
+2025-05-12 14:32:26,023 - resources.locator_predict_model - INFO - 'test_button' için model eğitiliyor
+2025-05-12 14:32:26,027 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:26,030 - __main__ - INFO - Değişen element görünürlüğü: #changed-button - True
+2025-05-12 14:32:26,030 - __main__ - INFO - Değişim sonrası test: Class Değişim Testi
+2025-05-12 14:32:26,031 - resources.locator_predict_model - INFO - 'search_input' için locator tahmin yapılıyor
+2025-05-12 14:32:26,032 - __main__ - INFO - 'search_input' için tahminler:
+2025-05-12 14:32:26,032 - __main__ - INFO -   1. Type: css, Selector: #search_input, Score: 0.80
+2025-05-12 14:32:26,032 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:26,032 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:26,036 - __main__ - INFO - Element değişim sonrası bulundu: input[type='text']
+2025-05-12 14:32:26,036 - resources.locator_predict_model - INFO - 'search_input' için model eğitiliyor
+2025-05-12 14:32:26,037 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:26,039 - __main__ - INFO - Değişen element görünürlüğü: .modified-input - True
+2025-05-12 14:32:26,039 - __main__ - INFO - Değişim sonrası test: Metin Değişim Testi
+2025-05-12 14:32:26,040 - resources.locator_predict_model - INFO - 'submit_button' için locator tahmin yapılıyor
+2025-05-12 14:32:26,041 - __main__ - INFO - 'submit_button' için tahminler:
+2025-05-12 14:32:26,041 - __main__ - INFO -   1. Type: css, Selector: #submit_button, Score: 0.80
+2025-05-12 14:32:26,041 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:26,041 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:32:26,044 - __main__ - INFO - Element değişim sonrası bulundu: input[type='text']
+2025-05-12 14:32:26,045 - resources.locator_predict_model - INFO - 'submit_button' için model eğitiliyor
+2025-05-12 14:32:26,045 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:32:26,047 - __main__ - ERROR - Değişen element kontrolü hatası: Locator.is_visible: Error: strict mode violation: locator("text=Devam Et") resolved to 2 elements:
+    1) <p>Başlangıçta 'Gönder' yazan buton, 3 saniye sonra …</p> aka get_by_text("Başlangıçta 'Gönder' yazan")
+    2) <button id="text-button">Devam Et</button> aka get_by_role("button", name="Devam Et")
+
+Call log:
+    - checking visibility of locator("text=Devam Et")
+
+2025-05-12 14:32:26,048 - __main__ - INFO - Kendini iyileştirme testi tamamlandı. Sonuçlar self_healing_test_results.json dosyasına kaydedildi.
+2025-05-12 14:32:29,307 - __main__ - INFO - Geçici test dosyası temizlendi.
+2025-05-12 14:43:56,029 - __main__ - INFO - Geliştirilmiş model testi başlatılıyor...
+2025-05-12 14:43:56,029 - resources.locator_predict_model - INFO - Model verisi yüklendi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:43:56,029 - resources.locator_predict_model - INFO - Locator tahmin modeli başlatıldı
+2025-05-12 14:43:57,797 - __main__ - INFO - Site 1/3: TGO Yemek test ediliyor...
+2025-05-12 14:43:57,797 - __main__ - INFO - Sayfa yükleniyor: https://tgoyemek.com/restoranlar
+2025-05-12 14:44:02,492 - __main__ - INFO - TGO Yemek için HTML içeriği alındı (1356937 bytes)
+2025-05-12 14:44:03,411 - __main__ - INFO - Senaryo 1/10: 'arama_kutusu' test ediliyor...
+2025-05-12 14:44:03,411 - resources.locator_predict_model - INFO - 'arama_kutusu' için locator tahmin yapılıyor
+2025-05-12 14:44:03,547 - __main__ - INFO - 'arama_kutusu' için 10 tahmin yapıldı
+2025-05-12 14:44:03,547 - __main__ - INFO -   1. Type: css, Selector: #arama_kutusu, Score: 0.80
+2025-05-12 14:44:03,547 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:03,547 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:03,547 - __main__ - INFO - Tahmin 1 test ediliyor: css - #arama_kutusu
+2025-05-12 14:44:03,563 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:03,567 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:44:03,589 - __main__ - INFO - Element dolduruldu: 'burger'
+2025-05-12 14:44:03,589 - resources.locator_predict_model - INFO - 'arama_kutusu' için model eğitiliyor
+2025-05-12 14:44:03,590 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:03,590 - __main__ - INFO - Model eğitildi: arama_kutusu - input[type='text']
+2025-05-12 14:44:03,590 - __main__ - INFO - Senaryo 'arama_kutusu' başarılı
+2025-05-12 14:44:03,590 - __main__ - INFO - Senaryo 2/10: 'filtre_butonu' test ediliyor...
+2025-05-12 14:44:03,590 - resources.locator_predict_model - INFO - 'filtre_butonu' için locator tahmin yapılıyor
+2025-05-12 14:44:03,716 - __main__ - INFO - 'filtre_butonu' için 10 tahmin yapıldı
+2025-05-12 14:44:03,716 - __main__ - INFO -   1. Type: css, Selector: #filtre_butonu, Score: 0.80
+2025-05-12 14:44:03,716 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:03,716 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:03,716 - __main__ - INFO - Tahmin 1 test ediliyor: css - #filtre_butonu
+2025-05-12 14:44:03,721 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:03,725 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:44:03,725 - __main__ - INFO - Element tıklanabilir: Test başarılı
+2025-05-12 14:44:03,725 - resources.locator_predict_model - INFO - 'filtre_butonu' için model eğitiliyor
+2025-05-12 14:44:03,726 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:03,726 - __main__ - INFO - Model eğitildi: filtre_butonu - input[type='text']
+2025-05-12 14:44:03,726 - __main__ - INFO - Senaryo 'filtre_butonu' başarılı
+2025-05-12 14:44:03,726 - __main__ - INFO - Senaryo 3/10: 'restoran_listesi' test ediliyor...
+2025-05-12 14:44:03,726 - resources.locator_predict_model - INFO - 'restoran_listesi' için locator tahmin yapılıyor
+2025-05-12 14:44:03,845 - __main__ - INFO - 'restoran_listesi' için 10 tahmin yapıldı
+2025-05-12 14:44:03,845 - __main__ - INFO -   1. Type: css, Selector: #restoran_listesi, Score: 0.80
+2025-05-12 14:44:03,845 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:03,845 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:03,845 - __main__ - INFO - Tahmin 1 test ediliyor: css - #restoran_listesi
+2025-05-12 14:44:03,848 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:03,852 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:44:03,852 - __main__ - INFO - Element görünür: Test başarılı
+2025-05-12 14:44:03,852 - resources.locator_predict_model - INFO - 'restoran_listesi' için model eğitiliyor
+2025-05-12 14:44:03,853 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:03,853 - __main__ - INFO - Model eğitildi: restoran_listesi - input[type='text']
+2025-05-12 14:44:03,853 - __main__ - INFO - Senaryo 'restoran_listesi' başarılı
+2025-05-12 14:44:03,853 - __main__ - INFO - Senaryo 4/10: 'header_logo' test ediliyor...
+2025-05-12 14:44:03,853 - resources.locator_predict_model - INFO - 'header_logo' için locator tahmin yapılıyor
+2025-05-12 14:44:03,972 - __main__ - INFO - 'header_logo' için 10 tahmin yapıldı
+2025-05-12 14:44:03,972 - __main__ - INFO -   1. Type: css, Selector: #header_logo, Score: 0.80
+2025-05-12 14:44:03,972 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:03,972 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:03,972 - __main__ - INFO - Tahmin 1 test ediliyor: css - #header_logo
+2025-05-12 14:44:03,976 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:03,979 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:44:03,979 - __main__ - INFO - Element görünür: Test başarılı
+2025-05-12 14:44:03,979 - resources.locator_predict_model - INFO - 'header_logo' için model eğitiliyor
+2025-05-12 14:44:03,980 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:03,980 - __main__ - INFO - Model eğitildi: header_logo - input[type='text']
+2025-05-12 14:44:03,980 - __main__ - INFO - Senaryo 'header_logo' başarılı
+2025-05-12 14:44:03,980 - __main__ - INFO - Senaryo 5/10: 'kampanyalar_section' test ediliyor...
+2025-05-12 14:44:03,980 - resources.locator_predict_model - INFO - 'kampanyalar_section' için locator tahmin yapılıyor
+2025-05-12 14:44:04,140 - __main__ - INFO - 'kampanyalar_section' için 10 tahmin yapıldı
+2025-05-12 14:44:04,140 - __main__ - INFO -   1. Type: css, Selector: #kampanyalar_section, Score: 0.80
+2025-05-12 14:44:04,140 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,140 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,140 - __main__ - INFO - Tahmin 1 test ediliyor: css - #kampanyalar_section
+2025-05-12 14:44:04,143 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:04,146 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:44:04,146 - __main__ - INFO - Element görünür: Test başarılı
+2025-05-12 14:44:04,147 - resources.locator_predict_model - INFO - 'kampanyalar_section' için model eğitiliyor
+2025-05-12 14:44:04,147 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:04,147 - __main__ - INFO - Model eğitildi: kampanyalar_section - input[type='text']
+2025-05-12 14:44:04,147 - __main__ - INFO - Senaryo 'kampanyalar_section' başarılı
+2025-05-12 14:44:04,147 - __main__ - INFO - Senaryo 6/10: 'footer_section' test ediliyor...
+2025-05-12 14:44:04,147 - resources.locator_predict_model - INFO - 'footer_section' için locator tahmin yapılıyor
+2025-05-12 14:44:04,265 - __main__ - INFO - 'footer_section' için 10 tahmin yapıldı
+2025-05-12 14:44:04,265 - __main__ - INFO -   1. Type: css, Selector: #footer_section, Score: 0.80
+2025-05-12 14:44:04,265 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,265 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,265 - __main__ - INFO - Tahmin 1 test ediliyor: css - #footer_section
+2025-05-12 14:44:04,269 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:04,272 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:44:04,272 - __main__ - INFO - Element görünür: Test başarılı
+2025-05-12 14:44:04,272 - resources.locator_predict_model - INFO - 'footer_section' için model eğitiliyor
+2025-05-12 14:44:04,273 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:04,273 - __main__ - INFO - Model eğitildi: footer_section - input[type='text']
+2025-05-12 14:44:04,273 - __main__ - INFO - Senaryo 'footer_section' başarılı
+2025-05-12 14:44:04,273 - __main__ - INFO - Senaryo 7/10: 'mobil_uygulama_buton' test ediliyor...
+2025-05-12 14:44:04,273 - resources.locator_predict_model - INFO - 'mobil_uygulama_buton' için locator tahmin yapılıyor
+2025-05-12 14:44:04,393 - __main__ - INFO - 'mobil_uygulama_buton' için 10 tahmin yapıldı
+2025-05-12 14:44:04,393 - __main__ - INFO -   1. Type: css, Selector: #mobil_uygulama_buton, Score: 0.80
+2025-05-12 14:44:04,393 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,393 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,393 - __main__ - INFO - Tahmin 1 test ediliyor: css - #mobil_uygulama_buton
+2025-05-12 14:44:04,397 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:04,400 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:44:04,400 - __main__ - INFO - Element görünür: Test başarılı
+2025-05-12 14:44:04,400 - resources.locator_predict_model - INFO - 'mobil_uygulama_buton' için model eğitiliyor
+2025-05-12 14:44:04,401 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:04,401 - __main__ - INFO - Model eğitildi: mobil_uygulama_buton - input[type='text']
+2025-05-12 14:44:04,401 - __main__ - INFO - Senaryo 'mobil_uygulama_buton' başarılı
+2025-05-12 14:44:04,401 - __main__ - INFO - Senaryo 8/10: 'siparis_takip' test ediliyor...
+2025-05-12 14:44:04,401 - resources.locator_predict_model - INFO - 'siparis_takip' için locator tahmin yapılıyor
+2025-05-12 14:44:04,521 - __main__ - INFO - 'siparis_takip' için 10 tahmin yapıldı
+2025-05-12 14:44:04,521 - __main__ - INFO -   1. Type: css, Selector: #siparis_takip, Score: 0.80
+2025-05-12 14:44:04,521 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,521 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,521 - __main__ - INFO - Tahmin 1 test ediliyor: css - #siparis_takip
+2025-05-12 14:44:04,524 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:04,527 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:44:04,527 - __main__ - INFO - Element görünür: Test başarılı
+2025-05-12 14:44:04,527 - resources.locator_predict_model - INFO - 'siparis_takip' için model eğitiliyor
+2025-05-12 14:44:04,528 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:04,528 - __main__ - INFO - Model eğitildi: siparis_takip - input[type='text']
+2025-05-12 14:44:04,528 - __main__ - INFO - Senaryo 'siparis_takip' başarılı
+2025-05-12 14:44:04,528 - __main__ - INFO - Senaryo 9/10: 'ilk_restoran_kart' test ediliyor...
+2025-05-12 14:44:04,528 - resources.locator_predict_model - INFO - 'ilk_restoran_kart' için locator tahmin yapılıyor
+2025-05-12 14:44:04,648 - __main__ - INFO - 'ilk_restoran_kart' için 10 tahmin yapıldı
+2025-05-12 14:44:04,648 - __main__ - INFO -   1. Type: css, Selector: #ilk_restoran_kart, Score: 0.80
+2025-05-12 14:44:04,648 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,648 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,649 - __main__ - INFO - Tahmin 1 test ediliyor: css - #ilk_restoran_kart
+2025-05-12 14:44:04,652 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:04,655 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:44:04,655 - __main__ - INFO - Element tıklanabilir: Test başarılı
+2025-05-12 14:44:04,655 - resources.locator_predict_model - INFO - 'ilk_restoran_kart' için model eğitiliyor
+2025-05-12 14:44:04,661 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:04,661 - __main__ - INFO - Model eğitildi: ilk_restoran_kart - input[type='text']
+2025-05-12 14:44:04,661 - __main__ - INFO - Senaryo 'ilk_restoran_kart' başarılı
+2025-05-12 14:44:04,661 - __main__ - INFO - Senaryo 10/10: 'restoranlar_baslik' test ediliyor...
+2025-05-12 14:44:04,661 - resources.locator_predict_model - INFO - 'restoranlar_baslik' için locator tahmin yapılıyor
+2025-05-12 14:44:04,780 - __main__ - INFO - 'restoranlar_baslik' için 10 tahmin yapıldı
+2025-05-12 14:44:04,780 - __main__ - INFO -   1. Type: css, Selector: #restoranlar_baslik, Score: 0.80
+2025-05-12 14:44:04,781 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,781 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:04,781 - __main__ - INFO - Tahmin 1 test ediliyor: css - #restoranlar_baslik
+2025-05-12 14:44:04,784 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:04,787 - __main__ - INFO - Element bulundu! css - input[type='text']
+2025-05-12 14:44:04,787 - __main__ - INFO - Element görünür: Test başarılı
+2025-05-12 14:44:04,787 - resources.locator_predict_model - INFO - 'restoranlar_baslik' için model eğitiliyor
+2025-05-12 14:44:04,788 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:04,788 - __main__ - INFO - Model eğitildi: restoranlar_baslik - input[type='text']
+2025-05-12 14:44:04,788 - __main__ - INFO - Senaryo 'restoranlar_baslik' başarılı
+2025-05-12 14:44:05,794 - __main__ - INFO - Site 2/3: Wikipedia test ediliyor...
+2025-05-12 14:44:05,795 - __main__ - INFO - Sayfa yükleniyor: https://tr.wikipedia.org/
+2025-05-12 14:44:09,708 - __main__ - INFO - Wikipedia için HTML içeriği alındı (423804 bytes)
+2025-05-12 14:44:10,635 - __main__ - INFO - Senaryo 1/10: 'wiki_search' test ediliyor...
+2025-05-12 14:44:10,635 - resources.locator_predict_model - INFO - 'wiki_search' için locator tahmin yapılıyor
+2025-05-12 14:44:10,732 - __main__ - INFO - 'wiki_search' için 10 tahmin yapıldı
+2025-05-12 14:44:10,732 - __main__ - INFO -   1. Type: css, Selector: #wiki_search, Score: 0.80
+2025-05-12 14:44:10,732 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,732 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,732 - __main__ - INFO - Tahmin 1 test ediliyor: css - #wiki_search
+2025-05-12 14:44:10,743 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,745 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,747 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: input[name='search']
+2025-05-12 14:44:10,749 - __main__ - INFO - Fallback ile element bulundu!
+2025-05-12 14:44:10,760 - __main__ - INFO - Fallback ile element dolduruldu: 'yazılım test otomasyonu'
+2025-05-12 14:44:10,760 - resources.locator_predict_model - INFO - 'wiki_search' için model eğitiliyor
+2025-05-12 14:44:10,760 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:10,761 - __main__ - INFO - Model fallback ile eğitildi: wiki_search - input[name='search']
+2025-05-12 14:44:10,761 - __main__ - INFO - Senaryo 'wiki_search' başarılı
+2025-05-12 14:44:10,761 - __main__ - INFO - Senaryo 2/10: 'wiki_languages' test ediliyor...
+2025-05-12 14:44:10,761 - resources.locator_predict_model - INFO - 'wiki_languages' için locator tahmin yapılıyor
+2025-05-12 14:44:10,785 - __main__ - INFO - 'wiki_languages' için 10 tahmin yapıldı
+2025-05-12 14:44:10,785 - __main__ - INFO -   1. Type: css, Selector: #wiki_languages, Score: 0.80
+2025-05-12 14:44:10,785 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,785 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,785 - __main__ - INFO - Tahmin 1 test ediliyor: css - #wiki_languages
+2025-05-12 14:44:10,788 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,790 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,792 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: #p-lang
+2025-05-12 14:44:10,794 - __main__ - WARNING - Senaryo 'wiki_languages' başarısız
+2025-05-12 14:44:10,794 - __main__ - INFO - Senaryo 3/10: 'header_logo' test ediliyor...
+2025-05-12 14:44:10,794 - resources.locator_predict_model - INFO - 'header_logo' için locator tahmin yapılıyor
+2025-05-12 14:44:10,821 - __main__ - INFO - 'header_logo' için 10 tahmin yapıldı
+2025-05-12 14:44:10,821 - __main__ - INFO -   1. Type: css, Selector: #header_logo, Score: 0.80
+2025-05-12 14:44:10,821 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,821 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,822 - __main__ - INFO - Tahmin 1 test ediliyor: css - #header_logo
+2025-05-12 14:44:10,824 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,825 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,826 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: .mw-wiki-logo
+2025-05-12 14:44:10,828 - __main__ - WARNING - Senaryo 'header_logo' başarısız
+2025-05-12 14:44:10,828 - __main__ - INFO - Senaryo 4/10: 'featured_article' test ediliyor...
+2025-05-12 14:44:10,829 - resources.locator_predict_model - INFO - 'featured_article' için locator tahmin yapılıyor
+2025-05-12 14:44:10,853 - __main__ - INFO - 'featured_article' için 10 tahmin yapıldı
+2025-05-12 14:44:10,853 - __main__ - INFO -   1. Type: css, Selector: #featured_article, Score: 0.80
+2025-05-12 14:44:10,853 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,853 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,853 - __main__ - INFO - Tahmin 1 test ediliyor: css - #featured_article
+2025-05-12 14:44:10,856 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,858 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,860 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: #mp-tfa
+2025-05-12 14:44:10,864 - __main__ - INFO - Fallback ile element bulundu!
+2025-05-12 14:44:10,864 - resources.locator_predict_model - INFO - 'featured_article' için model eğitiliyor
+2025-05-12 14:44:10,864 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:10,864 - __main__ - INFO - Model fallback ile eğitildi: featured_article - #mp-tfa
+2025-05-12 14:44:10,865 - __main__ - INFO - Senaryo 'featured_article' başarılı
+2025-05-12 14:44:10,865 - __main__ - INFO - Senaryo 5/10: 'sidebar_menu' test ediliyor...
+2025-05-12 14:44:10,865 - resources.locator_predict_model - INFO - 'sidebar_menu' için locator tahmin yapılıyor
+2025-05-12 14:44:10,892 - __main__ - INFO - 'sidebar_menu' için 10 tahmin yapıldı
+2025-05-12 14:44:10,892 - __main__ - INFO -   1. Type: css, Selector: #sidebar_menu, Score: 0.80
+2025-05-12 14:44:10,892 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,892 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,892 - __main__ - INFO - Tahmin 1 test ediliyor: css - #sidebar_menu
+2025-05-12 14:44:10,894 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,896 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,898 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: #mw-panel
+2025-05-12 14:44:10,900 - __main__ - WARNING - Senaryo 'sidebar_menu' başarısız
+2025-05-12 14:44:10,900 - __main__ - INFO - Senaryo 6/10: 'main_content' test ediliyor...
+2025-05-12 14:44:10,900 - resources.locator_predict_model - INFO - 'main_content' için locator tahmin yapılıyor
+2025-05-12 14:44:10,924 - __main__ - INFO - 'main_content' için 10 tahmin yapıldı
+2025-05-12 14:44:10,925 - __main__ - INFO -   1. Type: css, Selector: #main_content, Score: 0.80
+2025-05-12 14:44:10,925 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,925 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,925 - __main__ - INFO - Tahmin 1 test ediliyor: css - #main_content
+2025-05-12 14:44:10,927 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,929 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,931 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: #content
+2025-05-12 14:44:10,933 - __main__ - INFO - Fallback ile element bulundu!
+2025-05-12 14:44:10,933 - resources.locator_predict_model - INFO - 'main_content' için model eğitiliyor
+2025-05-12 14:44:10,934 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:10,934 - __main__ - INFO - Model fallback ile eğitildi: main_content - #content
+2025-05-12 14:44:10,934 - __main__ - INFO - Senaryo 'main_content' başarılı
+2025-05-12 14:44:10,934 - __main__ - INFO - Senaryo 7/10: 'search_button' test ediliyor...
+2025-05-12 14:44:10,934 - resources.locator_predict_model - INFO - 'search_button' için locator tahmin yapılıyor
+2025-05-12 14:44:10,960 - __main__ - INFO - 'search_button' için 10 tahmin yapıldı
+2025-05-12 14:44:10,960 - __main__ - INFO -   1. Type: css, Selector: #search_button, Score: 0.80
+2025-05-12 14:44:10,960 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,960 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,960 - __main__ - INFO - Tahmin 1 test ediliyor: css - #search_button
+2025-05-12 14:44:10,963 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,965 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:10,967 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: input[type='submit']
+2025-05-12 14:44:10,968 - __main__ - WARNING - Senaryo 'search_button' başarısız
+2025-05-12 14:44:10,968 - __main__ - INFO - Senaryo 8/10: 'login_link' test ediliyor...
+2025-05-12 14:44:10,968 - resources.locator_predict_model - INFO - 'login_link' için locator tahmin yapılıyor
+2025-05-12 14:44:10,996 - __main__ - INFO - 'login_link' için 10 tahmin yapıldı
+2025-05-12 14:44:10,996 - __main__ - INFO -   1. Type: css, Selector: #login_link, Score: 0.80
+2025-05-12 14:44:10,996 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,996 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:10,996 - __main__ - INFO - Tahmin 1 test ediliyor: css - #login_link
+2025-05-12 14:44:10,998 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:11,000 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:11,001 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: #pt-login
+2025-05-12 14:44:11,003 - __main__ - WARNING - Senaryo 'login_link' başarısız
+2025-05-12 14:44:11,003 - __main__ - INFO - Senaryo 9/10: 'footer' test ediliyor...
+2025-05-12 14:44:11,003 - resources.locator_predict_model - INFO - 'footer' için locator tahmin yapılıyor
+2025-05-12 14:44:11,028 - __main__ - INFO - 'footer' için 10 tahmin yapıldı
+2025-05-12 14:44:11,028 - __main__ - INFO -   1. Type: css, Selector: #footer, Score: 0.80
+2025-05-12 14:44:11,028 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:11,028 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:11,028 - __main__ - INFO - Tahmin 1 test ediliyor: css - #footer
+2025-05-12 14:44:11,031 - __main__ - INFO - Element bulundu! css - #footer
+2025-05-12 14:44:11,031 - __main__ - INFO - Element görünür: Test başarılı
+2025-05-12 14:44:11,031 - resources.locator_predict_model - INFO - 'footer' için model eğitiliyor
+2025-05-12 14:44:11,031 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:11,031 - __main__ - INFO - Model eğitildi: footer - #footer
+2025-05-12 14:44:11,031 - __main__ - INFO - Senaryo 'footer' başarılı
+2025-05-12 14:44:11,031 - __main__ - INFO - Senaryo 10/10: 'today_featured' test ediliyor...
+2025-05-12 14:44:11,031 - resources.locator_predict_model - INFO - 'today_featured' için locator tahmin yapılıyor
+2025-05-12 14:44:11,058 - __main__ - INFO - 'today_featured' için 10 tahmin yapıldı
+2025-05-12 14:44:11,058 - __main__ - INFO -   1. Type: css, Selector: #today_featured, Score: 0.80
+2025-05-12 14:44:11,058 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:11,058 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:11,058 - __main__ - INFO - Tahmin 1 test ediliyor: css - #today_featured
+2025-05-12 14:44:11,061 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:11,063 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:11,065 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: #mp-otd
+2025-05-12 14:44:11,066 - __main__ - WARNING - Senaryo 'today_featured' başarısız
+2025-05-12 14:44:12,070 - __main__ - INFO - Site 3/3: GitHub test ediliyor...
+2025-05-12 14:44:12,070 - __main__ - INFO - Sayfa yükleniyor: https://github.com/
+2025-05-12 14:44:16,961 - __main__ - INFO - GitHub için HTML içeriği alındı (307621 bytes)
+2025-05-12 14:44:17,882 - __main__ - INFO - Senaryo 1/10: 'github_search' test ediliyor...
+2025-05-12 14:44:17,883 - resources.locator_predict_model - INFO - 'github_search' için locator tahmin yapılıyor
+2025-05-12 14:44:17,915 - __main__ - INFO - 'github_search' için 10 tahmin yapıldı
+2025-05-12 14:44:17,915 - __main__ - INFO -   1. Type: css, Selector: #github_search, Score: 0.80
+2025-05-12 14:44:17,915 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:17,915 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:17,915 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_search
+2025-05-12 14:44:17,928 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:17,931 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:17,933 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: .header-search-input
+2025-05-12 14:44:17,935 - __main__ - WARNING - Senaryo 'github_search' başarısız
+2025-05-12 14:44:17,935 - __main__ - INFO - Senaryo 2/10: 'github_signup' test ediliyor...
+2025-05-12 14:44:17,935 - resources.locator_predict_model - INFO - 'github_signup' için locator tahmin yapılıyor
+2025-05-12 14:44:17,958 - __main__ - INFO - 'github_signup' için 10 tahmin yapıldı
+2025-05-12 14:44:17,958 - __main__ - INFO -   1. Type: css, Selector: #github_signup, Score: 0.80
+2025-05-12 14:44:17,958 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:17,958 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:17,958 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_signup
+2025-05-12 14:44:17,961 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:17,963 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:17,965 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: text=Sign up for GitHub
+2025-05-12 14:44:17,971 - __main__ - INFO - Fallback ile element bulundu!
+2025-05-12 14:44:17,971 - resources.locator_predict_model - INFO - 'github_signup' için model eğitiliyor
+2025-05-12 14:44:17,972 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:17,972 - __main__ - INFO - Model fallback ile eğitildi: github_signup - Sign up for GitHub
+2025-05-12 14:44:17,972 - __main__ - INFO - Senaryo 'github_signup' başarılı
+2025-05-12 14:44:17,972 - __main__ - INFO - Senaryo 3/10: 'github_login' test ediliyor...
+2025-05-12 14:44:17,972 - resources.locator_predict_model - INFO - 'github_login' için locator tahmin yapılıyor
+2025-05-12 14:44:17,998 - __main__ - INFO - 'github_login' için 10 tahmin yapıldı
+2025-05-12 14:44:17,998 - __main__ - INFO -   1. Type: css, Selector: #github_login, Score: 0.80
+2025-05-12 14:44:17,998 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:17,998 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:17,998 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_login
+2025-05-12 14:44:18,001 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,002 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,005 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: text=Sign in
+2025-05-12 14:44:18,010 - __main__ - WARNING - Senaryo 'github_login' başarısız
+2025-05-12 14:44:18,010 - __main__ - INFO - Senaryo 4/10: 'github_logo' test ediliyor...
+2025-05-12 14:44:18,010 - resources.locator_predict_model - INFO - 'github_logo' için locator tahmin yapılıyor
+2025-05-12 14:44:18,032 - __main__ - INFO - 'github_logo' için 10 tahmin yapıldı
+2025-05-12 14:44:18,033 - __main__ - INFO -   1. Type: css, Selector: #github_logo, Score: 0.80
+2025-05-12 14:44:18,033 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,033 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,033 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_logo
+2025-05-12 14:44:18,035 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,037 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,039 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: .octicon-mark-github
+2025-05-12 14:44:18,041 - __main__ - INFO - Fallback ile element bulundu!
+2025-05-12 14:44:18,041 - resources.locator_predict_model - INFO - 'github_logo' için model eğitiliyor
+2025-05-12 14:44:18,042 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:18,042 - __main__ - INFO - Model fallback ile eğitildi: github_logo - .octicon-mark-github
+2025-05-12 14:44:18,042 - __main__ - INFO - Senaryo 'github_logo' başarılı
+2025-05-12 14:44:18,042 - __main__ - INFO - Senaryo 5/10: 'github_hero' test ediliyor...
+2025-05-12 14:44:18,042 - resources.locator_predict_model - INFO - 'github_hero' için locator tahmin yapılıyor
+2025-05-12 14:44:18,067 - __main__ - INFO - 'github_hero' için 10 tahmin yapıldı
+2025-05-12 14:44:18,067 - __main__ - INFO -   1. Type: css, Selector: #github_hero, Score: 0.80
+2025-05-12 14:44:18,067 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,067 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,067 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_hero
+2025-05-12 14:44:18,069 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,072 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,074 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: .home-campaign-hero
+2025-05-12 14:44:18,075 - __main__ - WARNING - Senaryo 'github_hero' başarısız
+2025-05-12 14:44:18,075 - __main__ - INFO - Senaryo 6/10: 'github_features' test ediliyor...
+2025-05-12 14:44:18,075 - resources.locator_predict_model - INFO - 'github_features' için locator tahmin yapılıyor
+2025-05-12 14:44:18,098 - __main__ - INFO - 'github_features' için 10 tahmin yapıldı
+2025-05-12 14:44:18,099 - __main__ - INFO -   1. Type: css, Selector: #github_features, Score: 0.80
+2025-05-12 14:44:18,099 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,099 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,099 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_features
+2025-05-12 14:44:18,101 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,103 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,105 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: .home-campaign-features
+2025-05-12 14:44:18,107 - __main__ - WARNING - Senaryo 'github_features' başarısız
+2025-05-12 14:44:18,107 - __main__ - INFO - Senaryo 7/10: 'github_footer' test ediliyor...
+2025-05-12 14:44:18,107 - resources.locator_predict_model - INFO - 'github_footer' için locator tahmin yapılıyor
+2025-05-12 14:44:18,132 - __main__ - INFO - 'github_footer' için 10 tahmin yapıldı
+2025-05-12 14:44:18,132 - __main__ - INFO -   1. Type: css, Selector: #github_footer, Score: 0.80
+2025-05-12 14:44:18,132 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,132 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,132 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_footer
+2025-05-12 14:44:18,134 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,136 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,139 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: .footer
+2025-05-12 14:44:18,140 - __main__ - INFO - Fallback ile element bulundu!
+2025-05-12 14:44:18,141 - resources.locator_predict_model - INFO - 'github_footer' için model eğitiliyor
+2025-05-12 14:44:18,141 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:18,141 - __main__ - INFO - Model fallback ile eğitildi: github_footer - .footer
+2025-05-12 14:44:18,141 - __main__ - INFO - Senaryo 'github_footer' başarılı
+2025-05-12 14:44:18,141 - __main__ - INFO - Senaryo 8/10: 'github_pricing' test ediliyor...
+2025-05-12 14:44:18,141 - resources.locator_predict_model - INFO - 'github_pricing' için locator tahmin yapılıyor
+2025-05-12 14:44:18,165 - __main__ - INFO - 'github_pricing' için 10 tahmin yapıldı
+2025-05-12 14:44:18,165 - __main__ - INFO -   1. Type: css, Selector: #github_pricing, Score: 0.80
+2025-05-12 14:44:18,165 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,165 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,165 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_pricing
+2025-05-12 14:44:18,167 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,169 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,171 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: text=Pricing
+2025-05-12 14:44:18,176 - __main__ - INFO - Fallback ile element bulundu!
+2025-05-12 14:44:18,176 - resources.locator_predict_model - INFO - 'github_pricing' için model eğitiliyor
+2025-05-12 14:44:18,177 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:18,177 - __main__ - INFO - Model fallback ile eğitildi: github_pricing - Pricing
+2025-05-12 14:44:18,177 - __main__ - INFO - Senaryo 'github_pricing' başarılı
+2025-05-12 14:44:18,177 - __main__ - INFO - Senaryo 9/10: 'github_explore' test ediliyor...
+2025-05-12 14:44:18,177 - resources.locator_predict_model - INFO - 'github_explore' için locator tahmin yapılıyor
+2025-05-12 14:44:18,202 - __main__ - INFO - 'github_explore' için 10 tahmin yapıldı
+2025-05-12 14:44:18,202 - __main__ - INFO -   1. Type: css, Selector: #github_explore, Score: 0.80
+2025-05-12 14:44:18,202 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,202 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,202 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_explore
+2025-05-12 14:44:18,205 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,207 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,208 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: text=Explore
+2025-05-12 14:44:18,214 - __main__ - WARNING - Senaryo 'github_explore' başarısız
+2025-05-12 14:44:18,214 - __main__ - INFO - Senaryo 10/10: 'github_enterprise' test ediliyor...
+2025-05-12 14:44:18,214 - resources.locator_predict_model - INFO - 'github_enterprise' için locator tahmin yapılıyor
+2025-05-12 14:44:18,237 - __main__ - INFO - 'github_enterprise' için 10 tahmin yapıldı
+2025-05-12 14:44:18,237 - __main__ - INFO -   1. Type: css, Selector: #github_enterprise, Score: 0.80
+2025-05-12 14:44:18,237 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,237 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:18,237 - __main__ - INFO - Tahmin 1 test ediliyor: css - #github_enterprise
+2025-05-12 14:44:18,240 - __main__ - INFO - Tahmin 2 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,241 - __main__ - INFO - Tahmin 3 test ediliyor: css - input[type='text']
+2025-05-12 14:44:18,243 - __main__ - WARNING - Hiçbir tahmin çalışmadı. Fallback deneniyor: text=Enterprise
+2025-05-12 14:44:18,248 - __main__ - WARNING - Senaryo 'github_enterprise' başarısız
+2025-05-12 14:44:19,562 - __main__ - INFO - Test sonuçları:
+2025-05-12 14:44:19,563 - __main__ - INFO -   Toplam test: 30
+2025-05-12 14:44:19,563 - __main__ - INFO -   Başarılı: 18
+2025-05-12 14:44:19,563 - __main__ - INFO -   Başarısız: 12
+2025-05-12 14:44:19,563 - __main__ - INFO -   Başarı oranı: 60.0%
+2025-05-12 14:44:19,563 - __main__ - INFO -   TGO Yemek: 10/10 başarılı (100.0%)
+2025-05-12 14:44:19,563 - __main__ - INFO -   Wikipedia: 4/10 başarılı (40.0%)
+2025-05-12 14:44:19,563 - __main__ - INFO -   GitHub: 4/10 başarılı (40.0%)
+2025-05-12 14:44:19,563 - __main__ - INFO - Geliştirilmiş model testi tamamlandı. Sonuçlar model_test_results.json dosyasına kaydedildi.
+2025-05-12 14:44:19,563 - __main__ - INFO - Model kendini iyileştirme stratejileri testi başlatılıyor...
+2025-05-12 14:44:19,564 - resources.locator_predict_model - INFO - Model verisi yüklendi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:19,564 - resources.locator_predict_model - INFO - Locator tahmin modeli başlatıldı
+2025-05-12 14:44:21,061 - __main__ - INFO - Test sayfası oluşturuldu: file:///Users/oguzhan.erdem/Desktop/self-healing-project/temp_test.html
+2025-05-12 14:44:21,672 - __main__ - INFO - Senaryo başlatılıyor: ID Değişim Testi
+2025-05-12 14:44:21,676 - resources.locator_predict_model - INFO - 'test_button' için model eğitiliyor
+2025-05-12 14:44:21,676 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:21,676 - __main__ - INFO - Model orijinal seçici ile eğitildi: test_button - #test-button
+2025-05-12 14:44:21,688 - __main__ - INFO - Orijinal element görünür: #test-button - True
+2025-05-12 14:44:21,688 - __main__ - INFO - Senaryo başlatılıyor: Class Değişim Testi
+2025-05-12 14:44:21,690 - resources.locator_predict_model - INFO - 'search_input' için model eğitiliyor
+2025-05-12 14:44:21,691 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:21,691 - __main__ - INFO - Model orijinal seçici ile eğitildi: search_input - .search-input
+2025-05-12 14:44:21,693 - __main__ - INFO - Orijinal element görünür: .search-input - True
+2025-05-12 14:44:21,693 - __main__ - INFO - Senaryo başlatılıyor: Metin Değişim Testi
+2025-05-12 14:44:21,694 - resources.locator_predict_model - INFO - 'submit_button' için model eğitiliyor
+2025-05-12 14:44:21,695 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:21,695 - __main__ - INFO - Model orijinal seçici ile eğitildi: submit_button - Gönder
+2025-05-12 14:44:21,702 - __main__ - ERROR - Orijinal elemana erişim hatası: Locator.is_visible: Error: strict mode violation: locator("text=Gönder") resolved to 2 elements:
+    1) <p>Başlangıçta 'Gönder' yazan buton, 3 saniye sonra …</p> aka get_by_text("Başlangıçta 'Gönder' yazan")
+    2) <button id="text-button">Gönder</button> aka get_by_role("button", name="Gönder")
+
+Call log:
+    - checking visibility of locator("text=Gönder")
+
+2025-05-12 14:44:21,702 - __main__ - INFO - Elementlerin değişmesi için 5 saniye bekleniyor...
+2025-05-12 14:44:26,707 - __main__ - INFO - Değişim sonrası test: ID Değişim Testi
+2025-05-12 14:44:26,711 - resources.locator_predict_model - INFO - 'test_button' için locator tahmin yapılıyor
+2025-05-12 14:44:26,711 - __main__ - INFO - 'test_button' için tahminler:
+2025-05-12 14:44:26,711 - __main__ - INFO -   1. Type: css, Selector: #test_button, Score: 0.80
+2025-05-12 14:44:26,711 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:26,712 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:26,718 - __main__ - INFO - Element değişim sonrası bulundu: input[type='text']
+2025-05-12 14:44:26,718 - resources.locator_predict_model - INFO - 'test_button' için model eğitiliyor
+2025-05-12 14:44:26,719 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:26,722 - __main__ - INFO - Değişen element görünürlüğü: #changed-button - True
+2025-05-12 14:44:26,722 - __main__ - INFO - Değişim sonrası test: Class Değişim Testi
+2025-05-12 14:44:26,724 - resources.locator_predict_model - INFO - 'search_input' için locator tahmin yapılıyor
+2025-05-12 14:44:26,724 - __main__ - INFO - 'search_input' için tahminler:
+2025-05-12 14:44:26,724 - __main__ - INFO -   1. Type: css, Selector: #search_input, Score: 0.80
+2025-05-12 14:44:26,724 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:26,724 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:26,728 - __main__ - INFO - Element değişim sonrası bulundu: input[type='text']
+2025-05-12 14:44:26,729 - resources.locator_predict_model - INFO - 'search_input' için model eğitiliyor
+2025-05-12 14:44:26,729 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:26,731 - __main__ - INFO - Değişen element görünürlüğü: .modified-input - True
+2025-05-12 14:44:26,731 - __main__ - INFO - Değişim sonrası test: Metin Değişim Testi
+2025-05-12 14:44:26,733 - resources.locator_predict_model - INFO - 'submit_button' için locator tahmin yapılıyor
+2025-05-12 14:44:26,733 - __main__ - INFO - 'submit_button' için tahminler:
+2025-05-12 14:44:26,734 - __main__ - INFO -   1. Type: css, Selector: #submit_button, Score: 0.80
+2025-05-12 14:44:26,734 - __main__ - INFO -   2. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:26,734 - __main__ - INFO -   3. Type: css, Selector: input[type='text'], Score: 0.75
+2025-05-12 14:44:26,737 - __main__ - INFO - Element değişim sonrası bulundu: input[type='text']
+2025-05-12 14:44:26,737 - resources.locator_predict_model - INFO - 'submit_button' için model eğitiliyor
+2025-05-12 14:44:26,744 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:44:26,747 - __main__ - ERROR - Değişen element kontrolü hatası: Locator.is_visible: Error: strict mode violation: locator("text=Devam Et") resolved to 2 elements:
+    1) <p>Başlangıçta 'Gönder' yazan buton, 3 saniye sonra …</p> aka get_by_text("Başlangıçta 'Gönder' yazan")
+    2) <button id="text-button">Devam Et</button> aka get_by_role("button", name="Devam Et")
+
+Call log:
+    - checking visibility of locator("text=Devam Et")
+
+2025-05-12 14:44:26,747 - __main__ - INFO - Kendini iyileştirme testi tamamlandı. Sonuçlar self_healing_test_results.json dosyasına kaydedildi.
+2025-05-12 14:44:30,045 - __main__ - INFO - Geçici test dosyası temizlendi.

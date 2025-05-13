@@ -1,0 +1,48 @@
+2025-05-12 14:23:43,603 - __main__ - INFO - Model verisi oluşturma işlemi başlatılıyor...
+2025-05-12 14:23:43,603 - resources.locator_predict_model - INFO - Model verisi yüklendi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:23:43,603 - resources.locator_predict_model - INFO - Locator tahmin modeli başlatıldı
+2025-05-12 14:23:46,260 - __main__ - INFO - Sayfa yükleniyor: https://tgoyemek.com/restoranlar
+2025-05-12 14:23:48,724 - __main__ - INFO - HTML içeriği alındı
+2025-05-12 14:23:48,724 - __main__ - INFO - 'search_input' için model eğitiliyor...
+2025-05-12 14:23:48,724 - resources.locator_predict_model - INFO - 'search_input' için model eğitiliyor
+2025-05-12 14:23:48,724 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:23:48,724 - __main__ - INFO - 'search_input' için model eğitimi başarılı
+2025-05-12 14:23:48,725 - __main__ - INFO - 'search_button' için model eğitiliyor...
+2025-05-12 14:23:48,725 - resources.locator_predict_model - INFO - 'search_button' için model eğitiliyor
+2025-05-12 14:23:48,725 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:23:48,725 - __main__ - INFO - 'search_button' için model eğitimi başarılı
+2025-05-12 14:23:48,725 - __main__ - INFO - 'restaurant_list' için model eğitiliyor...
+2025-05-12 14:23:48,725 - resources.locator_predict_model - INFO - 'restaurant_list' için model eğitiliyor
+2025-05-12 14:23:48,726 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:23:48,726 - __main__ - INFO - 'restaurant_list' için model eğitimi başarılı
+2025-05-12 14:23:48,726 - __main__ - INFO - 'restaurant_card' için model eğitiliyor...
+2025-05-12 14:23:48,726 - resources.locator_predict_model - INFO - 'restaurant_card' için model eğitiliyor
+2025-05-12 14:23:48,727 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:23:48,727 - __main__ - INFO - 'restaurant_card' için model eğitimi başarılı
+2025-05-12 14:23:48,727 - __main__ - INFO - 'restaurant_name' için model eğitiliyor...
+2025-05-12 14:23:48,727 - resources.locator_predict_model - INFO - 'restaurant_name' için model eğitiliyor
+2025-05-12 14:23:48,728 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:23:48,729 - __main__ - INFO - 'restaurant_name' için model eğitimi başarılı
+2025-05-12 14:23:48,729 - __main__ - INFO - 'restaurant_rating' için model eğitiliyor...
+2025-05-12 14:23:48,729 - resources.locator_predict_model - INFO - 'restaurant_rating' için model eğitiliyor
+2025-05-12 14:23:48,729 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:23:48,730 - __main__ - INFO - 'restaurant_rating' için model eğitimi başarılı
+2025-05-12 14:23:48,730 - __main__ - INFO - 'filter_dropdown' için model eğitiliyor...
+2025-05-12 14:23:48,730 - resources.locator_predict_model - INFO - 'filter_dropdown' için model eğitiliyor
+2025-05-12 14:23:48,731 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:23:48,731 - __main__ - INFO - 'filter_dropdown' için model eğitimi başarılı
+2025-05-12 14:23:48,731 - __main__ - INFO - 'sort_dropdown' için model eğitiliyor...
+2025-05-12 14:23:48,731 - resources.locator_predict_model - INFO - 'sort_dropdown' için model eğitiliyor
+2025-05-12 14:23:48,731 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:23:48,731 - __main__ - INFO - 'sort_dropdown' için model eğitimi başarılı
+2025-05-12 14:23:48,731 - __main__ - INFO - 'pagination' için model eğitiliyor...
+2025-05-12 14:23:48,731 - resources.locator_predict_model - INFO - 'pagination' için model eğitiliyor
+2025-05-12 14:23:48,732 - resources.locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-12 14:23:48,732 - __main__ - INFO - 'pagination' için model eğitimi başarılı
+2025-05-12 14:23:48,732 - __main__ - INFO - Restoran detay sayfasına gidiliyor...
+2025-05-12 14:24:18,747 - __main__ - ERROR - Detay sayfası eğitim hatası: Page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".restaurant-card")
+
+2025-05-12 14:24:18,747 - __main__ - INFO - Toplam 9 veri örneği başarıyla işlendi.
+2025-05-12 14:24:18,809 - __main__ - INFO - Model veri oluşturma işlemi tamamlandı.

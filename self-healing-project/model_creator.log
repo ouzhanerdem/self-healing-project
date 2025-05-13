@@ -1,0 +1,51 @@
+2025-05-09 11:24:00,073 - __main__ - INFO - Self-Healing Test Modeli Oluşturma Aracı başlatılıyor...
+2025-05-09 11:24:00,074 - __main__ - INFO - Hedef URL: https://tgoyemek.com/restoranlar
+2025-05-09 11:24:00,074 - utils.model_creator - INFO - Model dosyası yükleniyor: /Users/oguzhan.erdem/Desktop/self-healing-project/resources/locator_predict_model.py
+2025-05-09 11:24:00,200 - locator_predict_model - INFO - Model verisi yüklendi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-09 11:24:00,200 - locator_predict_model - INFO - Locator tahmin modeli başlatıldı
+2025-05-09 11:24:00,200 - utils.model_creator - INFO - Model başarıyla yüklendi
+2025-05-09 11:24:00,200 - utils.model_creator - INFO - HTML içeriği çekiliyor: https://tgoyemek.com/restoranlar
+2025-05-09 11:24:00,385 - utils.model_creator - INFO - HTML içeriği başarıyla alındı!
+2025-05-09 11:24:00,385 - __main__ - INFO - 8 lokator eğitim için hazırlanıyor...
+2025-05-09 11:24:00,385 - utils.model_creator - INFO - Eğitim için kullanılan HTML (ilk 200 karakter): <!DOCTYPE html><html dir="ltr" lang="tr"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" imageSrcSet="https://cdn.tgoap...
+2025-05-09 11:24:00,385 - utils.model_creator - INFO - Model 'arama_kutusu' için eğitiliyor... Seçici: input[type='search'], .search-input, [placeholder*='ara'], input[name='search'] (css)
+2025-05-09 11:24:00,385 - locator_predict_model - INFO - 'arama_kutusu' için model eğitiliyor
+2025-05-09 11:24:00,386 - locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-09 11:24:00,386 - locator_predict_model - INFO - 'arama_kutusu' için model eğitimi tamamlandı
+2025-05-09 11:24:00,386 - utils.model_creator - INFO - 'arama_kutusu' için model eğitimi başarılı
+2025-05-09 11:24:00,386 - utils.model_creator - INFO - Model 'arama_butonu' için eğitiliyor... Seçici: button[type='submit'], .search-button, button.search (css)
+2025-05-09 11:24:00,386 - locator_predict_model - INFO - 'arama_butonu' için model eğitiliyor
+2025-05-09 11:24:00,387 - locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-09 11:24:00,387 - locator_predict_model - INFO - 'arama_butonu' için model eğitimi tamamlandı
+2025-05-09 11:24:00,387 - utils.model_creator - INFO - 'arama_butonu' için model eğitimi başarılı
+2025-05-09 11:24:00,387 - utils.model_creator - INFO - Model 'filtre_butonu' için eğitiliyor... Seçici: Filtrele ve Sırala (text)
+2025-05-09 11:24:00,387 - locator_predict_model - INFO - 'filtre_butonu' için model eğitiliyor
+2025-05-09 11:24:00,388 - locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-09 11:24:00,388 - locator_predict_model - INFO - 'filtre_butonu' için model eğitimi tamamlandı
+2025-05-09 11:24:00,388 - utils.model_creator - INFO - 'filtre_butonu' için model eğitimi başarılı
+2025-05-09 11:24:00,388 - utils.model_creator - INFO - Model 'kategori_mutfak' için eğitiliyor... Seçici: Meat Burger & Gurme Mutfak (text)
+2025-05-09 11:24:00,388 - locator_predict_model - INFO - 'kategori_mutfak' için model eğitiliyor
+2025-05-09 11:24:00,388 - locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-09 11:24:00,388 - locator_predict_model - INFO - 'kategori_mutfak' için model eğitimi tamamlandı
+2025-05-09 11:24:00,388 - utils.model_creator - INFO - 'kategori_mutfak' için model eğitimi başarılı
+2025-05-09 11:24:00,388 - utils.model_creator - INFO - Model 'uygula_butonu' için eğitiliyor... Seçici: Mobil Uygulamalar (text)
+2025-05-09 11:24:00,388 - locator_predict_model - INFO - 'uygula_butonu' için model eğitiliyor
+2025-05-09 11:24:00,389 - locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-09 11:24:00,389 - locator_predict_model - INFO - 'uygula_butonu' için model eğitimi tamamlandı
+2025-05-09 11:24:00,389 - utils.model_creator - INFO - 'uygula_butonu' için model eğitimi başarılı
+2025-05-09 11:24:00,389 - utils.model_creator - INFO - Model 'restoran_kartlari' için eğitiliyor... Seçici: .restaurant-card, .restaurant-item, .restaurant-box (css)
+2025-05-09 11:24:00,389 - locator_predict_model - INFO - 'restoran_kartlari' için model eğitiliyor
+2025-05-09 11:24:00,389 - locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-09 11:24:00,389 - locator_predict_model - INFO - 'restoran_kartlari' için model eğitimi tamamlandı
+2025-05-09 11:24:00,389 - utils.model_creator - INFO - 'restoran_kartlari' için model eğitimi başarılı
+2025-05-09 11:24:00,389 - utils.model_creator - INFO - Model 'ilk_restoran' için eğitiliyor... Seçici: .restaurant-card:first-child (css)
+2025-05-09 11:24:00,389 - locator_predict_model - INFO - 'ilk_restoran' için model eğitiliyor
+2025-05-09 11:24:00,391 - locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-09 11:24:00,391 - locator_predict_model - INFO - 'ilk_restoran' için model eğitimi tamamlandı
+2025-05-09 11:24:00,391 - utils.model_creator - INFO - 'ilk_restoran' için model eğitimi başarılı
+2025-05-09 11:24:00,391 - utils.model_creator - INFO - Model 'aktif_sayfa' için eğitiliyor... Seçici: .pagination .active (css)
+2025-05-09 11:24:00,391 - locator_predict_model - INFO - 'aktif_sayfa' için model eğitiliyor
+2025-05-09 11:24:00,393 - locator_predict_model - INFO - Model verisi kaydedildi: /Users/oguzhan.erdem/Desktop/self-healing-project/model_data.json
+2025-05-09 11:24:00,393 - locator_predict_model - INFO - 'aktif_sayfa' için model eğitimi tamamlandı
+2025-05-09 11:24:00,393 - utils.model_creator - INFO - 'aktif_sayfa' için model eğitimi başarılı
+2025-05-09 11:24:00,393 - utils.model_creator - INFO - Model eğitimi tamamlandı, 8/8 lokator için model eğitildi.
